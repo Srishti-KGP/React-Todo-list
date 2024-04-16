@@ -1,0 +1,20 @@
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+
+  name: todo-pod
+
+spec:
+
+  containers:
+
+  - name: todo-app
+
+    image: srishtikgp/todoreactimage:latest
+
+    ports:
+
+    - containerPort: 3000
+
